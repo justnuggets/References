@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ld4vra="http://l4dvra.org/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+
+  <rdf:Description rdf:nodeID="Location">
+    <ld4vra:cityName rdf:resource="http://vocab.getty.edu/tgn/7008038"/>
+    <ld4vra:regionName rdf:resource="http://vocab.getty.edu/tgn/7002883"/>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Location"/>
+    <ld4vra:continentName rdf:resource="http://vocab.getty.edu/tgn/1000003"/>
+    <ld4vra:nationName rdf:resource="http://vocab.getty.edu/tgn/1000070"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Material1">
+    <skos:prefLabel>ink on paper</skos:prefLabel>
+    <skos:altLabel>photo mechanical lithograph</skos:altLabel>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Material2">
+    <skos:prefLabel>hand-applied color</skos:prefLabel>
+    <skos:altLabel>pochoir</skos:altLabel>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Contributor1">
+    <rdf:type rdf:resource="http://l4dvra.org/core#Firm"/>
+    <ld4vra:latestActiveDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1956</ld4vra:latestActiveDate>
+    <schema:jobTitle>Fashion Design Firm</schema:jobTitle>
+    <ld4vra:culture>French</ld4vra:culture>
+    <ld4vra:contributedTo rdf:nodeID="Issue3"/>
+    <ld4vra:earliestActiveDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1858</ld4vra:earliestActiveDate>
+    <ld4vra:corporateName rdf:resource="http://vocab.getty.edu/lcnaf/87101263"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Contributor2">
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1876</schema:birthDate>
+    <schema:jobTitle>Illustrator</schema:jobTitle>
+    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1915</schema:deathDate>
+    <ld4vra:personalName rdf:resource="http://vocab.getty.edu/ulan/500035644"/>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Person"/>
+    <ld4vra:contributedTo rdf:nodeID="Issue3"/>
+    <ld4vra:culture>Spanish</ld4vra:culture>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Image3">
+    <dcterms:isPartOf rdf:nodeID="Issue3"/>
+    <ld4vra:measurement>18 MB</ld4vra:measurement>
+    <dcterms:title>Plate IV from Gazette du Bon Ton, Volume 1, No. 7, May 1913</dcterms:title>
+    <ld4vra:imageTechnique>digital imaging</ld4vra:imageTechnique>
+    <ld4vra:citation rdf:nodeID="Citation"/>
+    <ld4vra:rights>public domain</ld4vra:rights>
+    <dcterms:created>03/15/2009</dcterms:created>
+    <ld4vra:imageType>digital image</ld4vra:imageType>
+    <ld4vra:creator>Kohl, Allan</ld4vra:creator>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Image"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Citation">
+    <rdf:type rdf:resource="http://l4dvra.org/core#Source"/>
+    <ld4vra:acquirement>donated</ld4vra:acquirement>
+    <ld4vra:rights>educational use allowed</ld4vra:rights>
+    <dcterms:title>Minneapolis College of Art &amp;amp; Design Visual Resource Collection</dcterms:title>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Source">
+    <dcterms:identifier>0520245423</dcterms:identifier>
+    <dcterms:title>Classic Chic: Music, Fashion, and Modernism</dcterms:title>
+    <dcterms:issued>2006</dcterms:issued>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Source"/>
+    <ld4vra:creator>Davis, Mary E</ld4vra:creator>
+    <ld4vra:publisher>University of California Press</ld4vra:publisher>
+    <ld4vra:publisherLocation>Berkley CA</ld4vra:publisherLocation>
+  </rdf:Description>
+  
+  <rdf:Description rdf:nodeID="Issue3">
+    <dcterms:isPartOf rdf:nodeID="ub179bL77C30"/>
+    <ld4vra:measurementHeight-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">25.4</ld4vra:measurementHeight-cm>
+    <ld4vra:contributor rdf:nodeID="Contributor2"/>
+    <ld4vra:culture>French</ld4vra:culture>
+    <ld4vra:descriptiveTopic rdf:resource="http://id.loc.gov/authorities/subjects/sh2003012057"/>
+    <ld4vra:contributor rdf:nodeID="Contributor1"/>
+    <ld4vra:rights>publicDomain</ld4vra:rights>
+    <ld4vra:technique rdf:resource="http://vocab.getty.edu/aat/300053436"/>
+    <ld4vra:material rdf:nodeID="Material2"/>
+    <dcterms:hasPart rdf:nodeID="Image3"/>
+    <ld4vra:inscriptionSigned>Gosé</ld4vra:inscriptionSigned>
+    <dcterms:title xml:lang="en">On the Terrace: Afternoon dresses by the House of Worth</dcterms:title>
+    <dcterms:subject>hat</dcterms:subject>
+    <ld4vra:inscribedTitle xml:lang="fr">Sur la Terrasse: Robes d’après-midi de Worth</ld4vra:inscribedTitle>
+    <dcterms:subject>Fashion and art</dcterms:subject>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Work"/>
+    <ld4vra:stylePeriod rdf:resource="http://id.loc.gov/authorities/subjects/sh85139020"/>
+    <ld4vra:stylePeriod rdf:resource="http://vocab.getty.edu/aat/300021426"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1913</dcterms:issued>
+    <ld4vra:inscriptionDate>Mai 1913--Pl. IV</ld4vra:inscriptionDate>
+    <dcterms:subject>walking dresses</dcterms:subject>
+    <dcterms:subject>decorative arts</dcterms:subject>
+    <ld4vra:publicationLocation rdf:nodeID="Location"/>
+    <ld4vra:descriptiveTopic rdf:resource="http://id.loc.gov/authorities/subjects/sh85047379"/>
+    <ld4vra:inscriptionOn>Gazette du Bon Ton--No 7</ld4vra:inscriptionOn>
+    <dcterms:subject>balastrade</dcterms:subject>
+    <ld4vra:workType rdf:resource="http://vocab.getty.edu/aat/300054203"/>
+    <ld4vra:citation rdf:nodeID="Source"/>
+    <dcterms:subject>domestic life</dcterms:subject>
+    <ld4vra:material rdf:nodeID="Material1"/>
+    <ld4vra:technique rdf:resource="http://vocab.getty.edu/aat/300053279"/>
+    <dcterms:subject>urn</dcterms:subject>
+    <ld4vra:latestIssued rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1913</ld4vra:latestIssued>
+    <dcterms:subject>genre</dcterms:subject>
+    <dcterms:description>An example of the new mode of fashion illustration which showed the figures in action, in a genre setting; \"rather than simply drawing a mannequin in the outfit, like most previous fashion illustrators,[they]depicted the model in various dramatic and narrative situations.\"</dcterms:description>
+    <dcterms:subject>planter</dcterms:subject>
+    <ld4vra:measurementWidth-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">19.1</ld4vra:measurementWidth-cm>
+    <ld4vra:inscriptionDetail>Sur la Terrasse: Robes d’après-midi de Worth</ld4vra:inscriptionDetail>
+    <dcterms:subject>Fashion design</dcterms:subject>
+  </rdf:Description>
+  
+
+</rdf:RDF>
