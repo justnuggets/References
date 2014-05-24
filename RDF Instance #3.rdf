@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:ld4vra="http://l4dvra.org/core#"
@@ -76,16 +76,19 @@
   </rdf:Description>
   
   <rdf:Description rdf:nodeID="Issue3">
-    <dcterms:isPartOf rdf:nodeID="ub179bL77C30"/>
-    <ld4vra:measurementHeight-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">25.4</ld4vra:measurementHeight-cm>
+    <dcterms:isPartOf rdf:nodeID="Main"/>
+    <ld4vra:contributor rdf:nodeID="Contributor1"/>
     <ld4vra:contributor rdf:nodeID="Contributor2"/>
+    <ld4vra:material rdf:nodeID="Material1"/>
+    <ld4vra:material rdf:nodeID="Material2"/>
+    <ld4vra:citation rdf:nodeID="Source"/>
+    <dcterms:hasPart rdf:nodeID="Image3"/>
+
+    <ld4vra:measurementHeight-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">25.4</ld4vra:measurementHeight-cm>
     <ld4vra:culture>French</ld4vra:culture>
     <ld4vra:descriptiveTopic rdf:resource="http://id.loc.gov/authorities/subjects/sh2003012057"/>
-    <ld4vra:contributor rdf:nodeID="Contributor1"/>
     <ld4vra:rights>publicDomain</ld4vra:rights>
     <ld4vra:technique rdf:resource="http://vocab.getty.edu/aat/300053436"/>
-    <ld4vra:material rdf:nodeID="Material2"/>
-    <dcterms:hasPart rdf:nodeID="Image3"/>
     <ld4vra:inscriptionSigned>Gosé</ld4vra:inscriptionSigned>
     <dcterms:title xml:lang="en">On the Terrace: Afternoon dresses by the House of Worth</dcterms:title>
     <dcterms:subject>hat</dcterms:subject>
@@ -103,9 +106,7 @@
     <ld4vra:inscriptionOn>Gazette du Bon Ton--No 7</ld4vra:inscriptionOn>
     <dcterms:subject>balastrade</dcterms:subject>
     <ld4vra:workType rdf:resource="http://vocab.getty.edu/aat/300054203"/>
-    <ld4vra:citation rdf:nodeID="Source"/>
     <dcterms:subject>domestic life</dcterms:subject>
-    <ld4vra:material rdf:nodeID="Material1"/>
     <ld4vra:technique rdf:resource="http://vocab.getty.edu/aat/300053279"/>
     <dcterms:subject>urn</dcterms:subject>
     <ld4vra:latestIssued rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1913</ld4vra:latestIssued>
