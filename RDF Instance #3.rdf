@@ -45,6 +45,16 @@
     <ld4vra:culture>Spanish</ld4vra:culture>
   </rdf:Description>
   
+  <rdf:Description rdf:nodeID="MainContributor">
+    <ld4vra:culture>French</ld4vra:culture>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1886</schema:birthDate>
+    <ld4vra:contributedTo rdf:nodeID="f4201437072b9"/>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Person"/>
+    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1954</schema:deathDate>
+    <ld4vra:personalName rdf:resource="http://id.loc.gov/authorities/names/n2008037140"/>
+    <schema:jobTitle>art director</schema:jobTitle>
+  </rdf:Description>
+  
   <rdf:Description rdf:nodeID="Image3">
     <dcterms:isPartOf rdf:nodeID="Issue3"/>
     <ld4vra:measurement>18 MB</ld4vra:measurement>
@@ -117,6 +127,41 @@
     <ld4vra:inscriptionDetail>Sur la Terrasse: Robes d’après-midi de Worth</ld4vra:inscriptionDetail>
     <dcterms:subject>Fashion design</dcterms:subject>
   </rdf:Description>
-  
+ 
+ <rdf:Description rdf:nodeID="Main">
+    <ld4vra:citation rdf:nodeID="Source"/>
+    <ld4vra:hasPart rdf:nodeID="Issue3"/>
+	<ld4vra:contributor rdf:nodeID="MainContributor"/>
+    <ld4vra:publicationLocation rdf:nodeID="Location"/>
+	
+    <ld4vra:latestIssued rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1925</ld4vra:latestIssued>
+    <ld4vra:measurementHeight-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">25.4</ld4vra:measurementHeight-cm>
+    <ld4vra:stylePeriod rdf:resource="http://vocab.getty.edu/aat/300021426"/>
+    <ld4vra:descriptiveTopic rdf:resource="http://id.loc.gov/authorities/subjects/sh85047379"/>
+    <dcterms:subject>haute couture</dcterms:subject>
+    <ld4vra:stylePeriod rdf:resource="http://id.loc.gov/authorities/subjects/sh85139020"/>
+    <dcterms:subject>Fashion design</dcterms:subject>
+    <dcterms:subject>Parisian fashion</dcterms:subject>
+    <rdf:type rdf:resource="http://l4dvra.org/core#Work"/>
+    <dcterms:description>La Gazette du Bon Ton was a leading French fashion magazine that was published from November 1912 to 1925. Founded in 1912 by Lucien Vogel, the magazine covered the latest developments in fashion, lifestyle, and beauty. The magazine signed exclusive contracts with seven of Paris's top couture houses (Cheruit, Doeuillet, Doucet, Paquin, Poiret, Redfern, and Worth) so that the designers' fashions were shown only in the pages of the Gazette. The centerpiece of the Gazette was its fashion illustrations. Each issue featured ten full-page fashion plates (seven depicting couture designs and three inspired by couture but designed solely by the illustrators). It employed many of the most famous Art Deco artists and illustrators of the day, including Georges Barbier, Erté, Paul Iribe, Pierre Brissaud, and Georges Lepape, who all, rather than simply drawing a mannequin in the outfit, like most previous fashion illustrators, depicted the model in various dramatic and narrative situations.</dcterms:description>
+    <ld4vra:material>ink on paper</ld4vra:material>
+    <dcterms:subject>couturier</dcterms:subject>
+    <dcterms:subject>la mode parisienne</dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema/date">1912</dcterms:issued>
+    <ld4vra:culture>French</ld4vra:culture>
+    <ld4vra:measurementWidth-cm rdf:datatype="http://www.w3.org/2001/XMLSchema/double">19.1</ld4vra:measurementWidth-cm>
+    <dcterms:subject>business, commerce and trade</dcterms:subject>
+    <dcterms:subject>domestic life</dcterms:subject>
+    <ld4vra:rights>public domain</ld4vra:rights>
+    <dcterms:subject>couture</dcterms:subject>
+    <dcterms:subject>genre</dcterms:subject>
+    <dcterms:title xml:lang="en">Gazette du Bon Ton [periodical]</dcterms:title>
+    <ld4vra:technique rdf:resource="http://vocab.getty.edu/aat/300053279"/>
+    <dcterms:alternate xml:lang="en">Gazette du Bon Ton magazine</dcterms:alternate>
+    <dcterms:subject>Fashion and art</dcterms:subject>
+    <ld4vra:descriptiveTopic rdf:resource="http://id.loc.gov/authorities/subjects/sh2003012057"/>
+    <dcterms:subject>decorative arts</dcterms:subject>
+    <ld4vra:workType rdf:resource="http://vocab.getty.edu/aat/300215389"/>
+  </rdf:Description>
 
 </rdf:RDF>
